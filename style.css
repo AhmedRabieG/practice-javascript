@@ -1,0 +1,203 @@
+h1 {
+    color: blue;
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+ input {
+    
+ }
+
+ * {
+    box-sizing: border-box;
+  }
+  /* start assignment 1 */
+
+  /* .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 1fr;
+    gap: 20px;
+  }
+  .grid div {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid div::before {
+    content: "Element";
+    color: #fff;
+  } */
+
+  /* end assignment 1 */
+
+  /* start assignment 2 */
+  /* .layout {
+    display: grid;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 80px 1fr 80px;
+    grid-template-areas: 
+    "head head" "section aside" "foot foot"
+  }
+  .layout header {
+    
+    grid-area: head;
+    background-color: #03A9F4;
+  }
+  .layout section {
+    
+    grid-area: section;
+    background-color: #FF5722;
+  }
+  .layout aside {
+    
+    grid-area: aside;
+    background-color: #607D8B;
+  }
+  .layout footer {
+    
+    grid-area: foot;
+    background-color: #009688;
+  } */
+  /* end assignment 2 */
+
+  /* start assignment 3 */
+
+    /* .grid {
+        display: grid;
+        background-color: #ddd;
+        padding: 20px;
+        width: 800px;
+        height: 400px;
+        gap: 10px;
+        grid-template-columns: auto 1fr 1fr auto;
+        color: #fff;
+        grid-template-rows: 1fr auto ;
+    }
+
+    .grid div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #403F3F;
+    } */
+
+  /* end assignment 3 */
+
+  /* start assignment 4 */
+
+  /* .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  .grid div {
+    background-color: #2196F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px
+
+  } 
+  .one {
+    grid-column: span 3;
+  }
+  .two {
+    grid-column: span 2;
+  }
+  .three {
+
+  }
+  .four {
+    
+  }
+  .five {
+    grid-column: span 2;
+    grid-row: span 3;
+  }
+  .six {
+
+  }
+  .seven {
+
+  }
+  .eight {
+    grid-column: span 3;
+  }
+  .nine {
+
+  } */
+
+
+
+  /* end assignment 4 */
+
+  /* start assignment 5 */
+
+  /* .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+   
+    align-content: space-between;
+  }
+  .grid div {
+    background-color:  #E91E63;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    align-content: center;
+    text-align: center
+
+  } */
+
+  /* end assignment 5 */
+
+
+   /* start examples of amimation  */
+
+    div {
+        margin: 200px auto;
+        width: 200px;
+        height: 200px;
+        background-color: rgb(255 0 0 / 39%);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 30px;
+       
+    }
+
+  /* end examples of amimation  */
+
+  /* start assignment 6 */
+  /* end assignment 6 */
+
+
+  /* start assignment 7 */
+  /* end assignment 7 */
+
+  /* start assignment 2 */
+  /* end assignment 2 */

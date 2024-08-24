@@ -262,8 +262,56 @@
 // console.log(calc(10, 50, 10, 60 )); // 80
 
 /////////////////////////////////////////////////////////
-// less: 
+// less: 78- Higher Order Functions Challenge
+/*
+  Higher Order Functions Challenges
 
+  You Can Use
+  - ,
+  - _
+  - Space
+  - True => 1 => One Time Only In The Code
+
+  You Cannot Use
+  - Numbers
+  - Letters
+
+  - You Must Use [Filter + Map + Reduce + Your Knowledge]
+  - Order Is Not Important
+  - All In One Chain
+
+*/
+let myString = "1,2,3,EE,l,z,e,r,o,_,W,e,b,_,S,c,h,o,o,l,2,0,Z";
+
+// let solution = myString.split("").map(function(item) {
+//   return item !== "," ? item : "";
+// }).filter(function(item) {
+//     return isNaN(item)
+// }).slice(1).slice(0,-1).join("").split("_").join(" ")
+
+let solution = myString.split("").map(function(item) {
+  return item !== "," ? item : "";
+}).filter(function(item) {
+    return isNaN(item)
+}).reduce(function(acc, current) {
+  return acc + current
+})
+
+// let solution = myString.split("").filter( function(item) {
+//   return item !== "," && item !== "_" && item !== " " && item !== "e" 
+//   && isNaN(item)
+// } ).slice(1).slice(0,-1).join("")
+
+
+
+// myString.split("_").map(function(item) {
+//     return  item.split(",").filter(function(item) {
+//       return isNaN(item.split(""))
+//     })
+// })
+
+// .splice(1).slice(0,-1)
+console.log(solution); // Elzero Web School
 
 
 

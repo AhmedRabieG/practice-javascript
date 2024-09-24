@@ -1,7 +1,55 @@
+/* -----------   start  js    ------------------- */
+body {
+  height: 5000px;
+  background-color: #eee;
+}
+/* ul {
+  padding: 0;
+  margin: 0;
+  background-color: #ddd;
+  margin: 20px auto;
+  padding: 20px;
+  width: 400px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+  width: 60px;
+  height: 60px;
+  border: 2px solid transparent;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: 0.3s;
+}
+ul li.active,
+ul li:hover {
+  opacity: 1;
+}
+ul li:first-child {
+  background-color: red;
+}
+ul li:nth-child(2) {
+  background-color: green;
+}
+ul li:nth-child(3) {
+  background-color: blue;
+}
+ul li:nth-child(4) {
+  background-color: black;
+}
+.experiment {
+  background-color: red;
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+} */
+
+/*--------------- end js  -------------------------- */
 h1 {
-    color: blue;
+    /* color: blue;
     font-size: 4rem;
-    font-family: sans-serif;
+    font-family: sans-serif; */
 }
  input {
     
@@ -176,7 +224,7 @@ h1 {
 
    /* start examples of amimation  */
 
-    div {
+    /* div {
         margin: 200px auto;
         width: 200px;
         height: 200px;
@@ -188,7 +236,7 @@ h1 {
         font-weight: bold;
         font-size: 30px;
        
-    }
+    } */
 
   /* end examples of amimation  */
 
@@ -201,3 +249,26 @@ h1 {
 
   /* start assignment 2 */
   /* end assignment 2 */
+
+
+
+  /* --------------  ----------------- */
+
+  .results{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    background-color: #aca5a5;
+    width: 700px;
+    height: 500px;
+    margin: 16px;
+    padding: 16px;
+  }
+  .results .box {
+    background-color: orange;
+    text-align: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    height: fit-content;
+  }
